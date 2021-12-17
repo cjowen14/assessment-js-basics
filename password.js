@@ -7,7 +7,7 @@ const reader = readline.createInterface({
 
 console.log(`Welcome ot the Password Validator Tool!`);
 
-reader.question("What is your password? (Must be between 10-20 characters, contain at least one number, and one capital letter): ", function(input){
+reader.question("What is your password?\n" + "(Must be between 10-20 characters, contain at least one number, and one capital letter): ", function(input){
     tokens = input.split('');
     let numbers = /[0-9]/;
     let caps = /[A-Z]/;
@@ -20,13 +20,10 @@ reader.question("What is your password? (Must be between 10-20 characters, conta
         console.log(`This password is successful!`);
     } else if (tokens.length < 10 || tokens.length > 20 || !numbers.test(input) || !caps.test(input)) {
         console.log(`Password does not meet all requirements.`);
+        console.log(`|  -----  |'''  |'''|  |'''  |'''  |'''  ----\n` + `|  |   |  |...  |...|  |     |...  |...    |\n` + `                             |\n` + `                             ----`);
     }
 
     reader.close()
 });
 
-
-//included number
-//included symbol
-//included capital letter
-//no more than 20
+//no idea if the ASCII art is the right thought process but its supposed to say "incorrect"
