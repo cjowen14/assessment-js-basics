@@ -5,7 +5,7 @@ const reader = readline.createInterface({
   output: process.stdout,
 });
 
-console.log(`Welcome ot the Password Validator Tool!`);
+console.log(`Welcome to the Password Validator Tool!`);
 
 reader.question("What is your password?\n" + "(Must be between 10-20 characters, contain at least one number, and one capital letter): ", function(input){
     tokens = input.split('');
