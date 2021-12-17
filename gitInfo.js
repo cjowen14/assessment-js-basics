@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+const gitDefinition = 'Git is software that allows users to maintain version control of changes they make to their files of code.';
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+const gitHubDefinition = 'GitHub is a cloud based system that allows storage of repositories from Git and public access to those repositories.';
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +28,7 @@
 */
 
 //CODE HERE
+const gitInitDefinition = 'The first command run on Git creates a new blank repository, allowing an existing project to become a Git project.';
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,6 +37,7 @@
 */
 
 //CODE HERE
+const gitCloneDefinition = 'Creates a copy of a repository into a new directory (i.e from GitHub to local storage).';
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,6 +46,7 @@
 */
 
 //CODE HERE
+const gitStatusDefinition = 'Shows the state of the working directory to see changes and files that are not being tracked by git';
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,6 +58,8 @@
 */
 
 //CODE HERE
+const gitAddDefinition = 'Adds changes that have been made to the working directory to be added to the next commit.';
+const gitAddCode = 'git add .';
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,6 +71,8 @@
 */
 
 //CODE HERE
+const gitCommitDefinition = 'Saves all current changes of a project, or takes a "screenshot" of the current state of the project.';
+const gitCommitCode = 'git commit -m "initial commit"';
 
 
 //////////////////PROBLEM 8////////////////////
@@ -73,3 +82,4 @@
 */
 
 //CODE HERE
+const gitPushDefinition = 'Pushes changes made on local storage to the assigned remote repository.';
